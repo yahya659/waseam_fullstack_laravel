@@ -4,12 +4,12 @@
 
 | Dashboard                                                                       |
 | ----------------------------------------------  
-| ![Dashboard](public/screenshots/dashboard.png) |  
+| ![Dashboard](public/assets/img/dashboard.png) |  
 
 | Gallery                                    | Services                                     |
 | ------------------------------------------ | -------------------------------------------- |
-| ![Gallery](public/screenshots/gallery.png) |  
-| ![Gallery](public/screenshots/gallery2.png) |  
+| ![Gallery](public/assets/img/gallery.png) |  
+| ![Gallery](public/assets/img/gallery2.png) |  
 مشروع إدارة محتوى (CMS) مبني باستخدام Laravel، يتيح إدارة الخدمات، المدونة، والمعرض (Gallery) من خلال لوحة تحكم متكاملة.
 
 ---
