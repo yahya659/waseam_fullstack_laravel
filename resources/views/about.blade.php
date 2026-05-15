@@ -38,14 +38,14 @@
             <div class="flex flex-col lg:flex-row items-center gap-12">
                 <div class="w-full lg:w-1/2 reveal animate-fade-in-up">
                     <div class="relative rounded-2xl overflow-hidden shadow-2xl max-w-[580px] h-[422px] ">
-                        <img src="{{ asset('assets/img/about-us-alwisam.png') }}" alt="About Us"
+                        <img src="{{ asset('assets/img/about.jpg') }}" alt="About Us"
                             class="w-full  max-w-[580px] h-[422px] ">
                         <div class="absolute inset-0 bg-primary/10"></div>
                     </div>
                     <div class="grid grid-cols-2 gap-4 mt-4">
-                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                        <img src="{{ asset('assets/img/about2.jpg') }}"
                             alt="صورة 2" class="rounded-xl shadow-lg h-48 object-cover w-full">
-                        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                        <img src="{{ asset('assets/img/about3.jpg') }}"
                             alt="صورة 3" class="rounded-xl shadow-lg h-48 object-cover w-full">
                     </div>
                 </div>
@@ -55,18 +55,21 @@
                         <span class="text-accent font-bold uppercase tracking-wider"> من نحن- ABOUT US</span>
                     </div>
                     {{-- <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">تاريخ حافل بالنجاح والتميز</h2> --}}
-                    <p class="text-gray-600 leading-relaxed mb-6 text-2xl">
+                   <p class="text-gray-600 leading-relaxed mb-6 text-2xl">
 
-                        تأسسـت <span class="text-accent font-bold">مؤسسـة صاحب الوسـام</span> في مكة المكرمة بتاريخ <span
-                            dir="rtl">1445/12/04 </span>
-                        نـحـن متخصصون في إدارة
-                        وتنفيـذ الإنشائيات. مـع ضمـان تنفيذهـا وفق أعلى معاييـر الجـودة, ومراقبـة التقـدم,
-                        والالتزام بالمواعيد والميزانية لتلبية احتياجات عملائنا ودعم رؤية 2030.
+    تأسسـت <span class="text-accent font-bold">بصمة ديزاين</span> على يد
+    <span class="text-accent font-bold">المهندس عبدالله حميد الرقاص</span>،
+    صاحب الرؤية الطموحة والخبرة الهندسية المتميزة، الذي وضع منذ البداية
+    أسسًا قائمة على الإبداع، الجودة، والالتزام بأعلى المعايير المهنية.
 
-                    </p>
+    وبقيادته الحكيمة وشغفه المستمر بالتطوير والتميّز، أصبحت الشركة نموذجًا
+    يُحتذى به في تنفيذ وإدارة المشاريع الإنشائية، مع الحرص على تقديم حلول
+    هندسية مبتكرة تلبي تطلعات العملاء وتواكب مستهدفات رؤية 2030.
+
+</p>
                     <p class="text-gray-600 leading-relaxed mb-6 text-2xl" dir="ltr">
 
-                        <span class="text-accent font-bold">Sahib Al-Wisam </span>Establishment was founded in Makkah on
+                        <span class="text-accent font-bold">Basma Design </span>Establishment was founded in Makkah on
                         1445/12/04 AH. We
                         specialize in managing and executing construction projects, ensuring they are
                         completed to the highest quality standards, while monitoring progress and adhering
@@ -77,7 +80,7 @@
                         <p class="text-primary font-bold italic text-lg">
                             "نحن لا نبني مجرد مباني، بل نشيد صروحاً تعكس تطلعات عملائنا وتساهم في نهضة مجتمعنا."
                         </p>
-                        <span class="block mt-2 text-sm text-gray-500">- المدير العام</span>
+                        <span class="block mt-2 text-sm text-gray-500">عبدالله حميد الرقاص -: المدير العام</span>
                     </div>
                 </div>
             </div>
@@ -109,7 +112,7 @@
                     </span>
                     <p class="mx-auto mb-8 leading-relaxed text-2xl">
                         نسعى في <span class="text-accent  font-bold">
-                            مؤسسـة صاحب الوسـام</span> للمقاولات العامة أن
+                           بصمة ديزاين </span> للمقاولات العامة أن
                         نكون رواداً من خلال تقديم حلول مبتكرة لتنظيم وتنسيق
 
                         جميع الاعمال الانشائية، نركز على تنفيذ مشاريع عالية
@@ -120,15 +123,7 @@
                     </p>
                     <p class="leading-relaxed mb-6 text-lg" dir="ltr">
 
-                        At <span class="text-accent  font-bold">Sahib Al-Wisam </span>Establishment, we strive to be
-                        pioneers by providing innovative solutions for
-                        organizing and coordinating all construction
-                        projects. We focus on executing high-quality
-                        projects that contribute to enhancing
-                        infrastructure and supporting sustainable
-                        development, while adopting modern
-                        technologies and fostering the growth of the local
-                        workforce to help achieve Vision 2030.
+                        At <span class="text-accent  font-bold">Basma Design </span>At   Establishment, we strive to be pioneers by providing innovative solutions for organizing and coordinating all construction projects. We focus on executing high-quality projects that contribute to improving infrastructure and supporting sustainable development, while adopting the latest technologies and fostering workforce growth..
 
                     </p>
 
@@ -137,7 +132,7 @@
                 <!-- Image Content (Left Side) -->
                 <div class="w-full lg:w-1/2 flex justify-center animate-fade-in-up ">
                     <div class="relative w-full max-w-[580px] h-[422px] rounded-2xl overflow-hidden shadow-2xl">
-                        <img src="{{ asset('assets/img/vision-2030.png') }}" alt="  2030  مؤسسة صاحب الوسام"
+                        <img src="{{ asset('assets/img/raweahbasma.jpg') }}" alt="  2030  مؤسسة صاحب الوسام"
                             class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-primary/10"></div>
                     </div>
@@ -152,7 +147,7 @@
             <div class="flex flex-col lg:flex-row items-center gap-12">
                 <div class="w-full lg:w-1/2 reveal animate-fade-in-up">
                     <div class="relative rounded-2xl overflow-hidden shadow-2xl max-w-[580px] h-[422px]">
-                        <img src="{{ asset('assets/img/about-us-alwisam.png') }}" alt="About Us"
+                        <img src="{{ asset('assets/img/about.jpg') }}" alt="About Us"
                             class="w-full max-w-[580px] h-[422px] ">
                         <div class="absolute inset-0 bg-primary/10"></div>
                     </div>
@@ -163,7 +158,7 @@
                     {{-- <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">تاريخ حافل بالنجاح والتميز</h2> --}}
                     <p class="mx-auto mb-8 leading-relaxed text-2xl">
                         نلتزم في <span class="text-accent  font-bold">
-                            مؤسسـة صاحب الوسـام</span>
+                           بصمة ديزاين</span>
                         للمقاولات العامة بتحقيق التميز في
                         تقديم خدمات البناء والتشييد.
                         ونركز على تنفيذ مشاريع مبتكرة، حيث
@@ -173,7 +168,7 @@
                     <p class="text-gray-600 leading-relaxed mb-6 text-2xl" dir="ltr">
 
 
-                        At <span class="text-accent  font-bold">Sahib Al-Wisam </span> Contracting
+                        At <span class="text-accent  font-bold">Basma Design </span> Contracting
                         Establishment, we are committed
                         to excellence in providing
                         construction services. We focus on
@@ -203,7 +198,7 @@
                 <div class="reveal">
                     <span class="text-accent font-bold uppercase tracking-wider block mb-2">خبراتنا</span>
                     <h2 class="text-3xl md:text-4xl font-bold mb-6">
-                        لماذا تختار مؤسسة صاحب الوسام؟
+                        لماذا تختار  بصمة ديزاين؟
                     </h2>
                     <p class="text-gray-300 mb-8 leading-relaxed">
                         نمتلك سجلاً حافلاً من الإنجازات والخبرات المتراكمة التي تجعلنا

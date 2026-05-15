@@ -7,7 +7,7 @@
                  <div class="flex items-center gap-3 mb-6">
                      <img src="{{ isset($settings['site_logo']) ? asset('storage/' . $settings['site_logo']) : asset('logo-wisam.PNG') }}"
                          alt="شعار" class="h-12 bg-white p-1 rounded">
-                     <h3 class="text-xl font-bold">مؤسسة صاحب الوسام</h3>
+                     <h3 class="text-xl font-bold">بصمة ديزاين </h3>
                  </div>
                  <p class="text-gray-400 mb-6 leading-relaxed text-sm">
                      {{ $settings['site_description'] ?? 'مؤسسة صاحب الوسام هي شركة رائدة في مجال المقاولات والإنشاءات، نسعى لتقديم أفضل الخدمات بجودة عالية واحترافية.' }}
@@ -137,10 +137,10 @@
          <div
              class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
              <p> &copy; {{ date('Y') }}
-                 {{ $settings['site_name'] ?? 'مؤسسة صاحب الوسام' }}. جميع الحقوق محفوظة.
+                 {{ $settings['site_name'] ?? 'بصمة ديزاين ' }}. جميع الحقوق محفوظة.
              </p>
              <p>تم التصميم والتطوير بواسطة <span class="text-white "><a href="#"
-                         class="hover:text-accent transition-colors">Amjed.Dev</a></span></p>
+                         class="hover:text-accent transition-colors">yahya alhaifi</a></span></p>
          </div>
 
          {{--  <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">

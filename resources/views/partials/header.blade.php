@@ -5,10 +5,10 @@
           <!-- Logo -->
           <a href="{{ route('home') }}" class="flex items-center gap-3 group">
               <img src="{{ isset($settings['site_logo']) ? asset('storage/' . $settings['site_logo']) : asset('logo-wisam.PNG') }}"
-                  alt="{{ $settings['site_name'] ?? 'مؤسسة صاحب الوسام' }}" alt="شعار مؤسسة صاحب الوسام"
+                  alt="{{ $settings['site_name'] ?? 'بصمة ديزاين-  للهندسة والمقاولات' }}" alt="شعار مؤسسة صاحب الوسام"
                   class="h-12 md:h-16 object-contain group-hover:scale-105 transition-transform duration-300">
               <div class="hidden md:block">
-                  <h1 class="text-primary font-bold text-lg leading-tight">مؤسسة صاحب الوسام</h1>
+                  <h1 class="text-primary font-bold text-lg leading-tight">بصمة ديزاين </h1>
                   <p class="text-xs text-gray-500">للمقاولات العامة والهندسة</p>
               </div>
           </a>
