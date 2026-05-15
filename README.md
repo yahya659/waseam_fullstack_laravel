@@ -48,6 +48,3 @@
 - Blade Templates
 - Bootstrap / Tailwind  
 
----
-
-## 📁 هيكل المشروع
